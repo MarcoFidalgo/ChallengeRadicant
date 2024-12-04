@@ -68,4 +68,11 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     implementation(libs.bundles.retrofit)
+
+    // TODO organize like by lib and bundles
+    implementation("com.squareup.moshi:moshi:1.15.0")
+    implementation("com.squareup.moshi:moshi-kotlin:1.15.0")
+    implementation("com.squareup.retrofit2:converter-moshi:2.9.0")
+
+    implementation("com.github.PhilJay:MPAndroidChart:3.1.0")
 }
